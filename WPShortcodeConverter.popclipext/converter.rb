@@ -35,14 +35,18 @@ def acceptable_code(lang)
     available_lang.include?(lang) ? lang : "code"
 end
 
-result = input.gsub(/```(\w+)?\n(.+?)```/m) do |m|
-    lang = acceptable_code($1)
-    code = $2
-    is_empty_block = m.match(/^```\s+```$/m)
+result = input.gsub(/^(\s*?)```(\w+)?\n(.*?)```(\s*?)$/m) do |m|
+    prepand_space = $1
+    lang = acceptable_code($2)
+    code = $3
+    postpand_space = $4
+    is_empty_block = m.match(/^(\s*?)```\s*```(\s*?)$/m)
     if (!is_empty_block || (is_empty_block && is_empty_block[0] != m))   # skip empty block
         lines = code.split("\n").length
         opts = ' gutter="true"' if lines > 1 && lang != 'bash'
-        "[#{lang}#{opts}]\n#{code}[/#{lang}]"
+        "#{prepand_space}[#{lang}#{opts}]\n#{code}[/#{lang}]#{postpand_space}"
+    else
+        m
     end
 end
 
