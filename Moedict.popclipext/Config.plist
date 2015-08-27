@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Actions</key>
+    <array>
+        <dict>
+            <key>Image File</key>
+            <string>icon.png</string>
+            <key>Regular Expression</key>
+            <string>(?s)^[\u4e00-\u9fff]{1,20}$</string>
+            <key>Title</key>
+            <string>萌典</string>
+            <key>URL</key>
+            <string>https://www.moedict.tw/{popclip text}</string>
+        </dict>
+    </array>
+    <key>Extension Identifier</key>
+    <string>com.tsaiid.popclip.extension.moedict</string>
+    <key>Extension Name</key>
+    <string>萌典</string>
+    <key>Version</key>
+    <integer>1</integer>
+    <key>Required Software Version</key>
+    <integer>693</integer>
+</dict>
+</plist>
