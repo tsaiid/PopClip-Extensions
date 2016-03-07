@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Extension Identifier</key>
+	<string>com.tsaiid.popclip.extension.scihubdoi</string>
+	<key>Extension Name</key>
+	<string>SCI-HUB</string>
+	<key>Extension Description</key>
+	<dict>
+		<key>en</key>
+		<string>Get the result from SCI-HUB with a Digital Object Identifier (DOI)</string>
+	</dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>SCI-HUB</string>
+			<key>Image File</key>
+			<string>sci-hub-doi.png</string>
+			<key>Regular Expression</key>
+			<string>10\.[^\s]+\/[^\s]*\w</string>
+			<key>URL</key>
+			<string>https://sci-hub.io/{popclip text}</string>
+		</dict>
+	</array>
+	<key>Apps</key>
+	<array>
+		<dict>
+			<key>Link</key>
+			<string>https://sci-hub.io/</string>
+			<key>Name</key>
+			<string>SCI-HUB</string>
+		</dict>
+	</array>
+</dict>
+</plist>
