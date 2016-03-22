@@ -1,6 +1,6 @@
-# Twitter Media Popup
+# Open Twitter Media
 
-A PopClip Extension to show Popup windows for a given twitter pic url (pic.twitter.com).
+A PopClip Extension to open image links fomr a given twitter pic url (pic.twitter.com).
 
 ## Icon
 
