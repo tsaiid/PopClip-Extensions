@@ -21,7 +21,7 @@
 			<key>Regular Expression</key>
 			<string>10\.[^\s]+\/[^\s]*\w</string>
 			<key>URL</key>
-			<string>https://sci-hub.io/{popclip text}</string>
+			<string>https://sci-hub.ac/{popclip text}</string>
 		</dict>
 	</array>
 	<key>Apps</key>
