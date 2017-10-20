@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>After</key>
+			<string>paste-result</string>
+			<key>Image File</key>
+			<string>icon.png</string>
+			<key>Script Interpreter</key>
+			<string>/usr/bin/python</string>
+			<key>Shell Script File</key>
+			<string>formatter.py</string>
+			<key>Title</key>
+			<string>Markdown Table Formatter</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Formatting markdown tables</string>
+	<key>Extension Identifier</key>
+	<string>com.tsaiid.popclip.extension.markdown-table-formatter</string>
+	<key>Extension Name</key>
+	<string>Markdown Table Formatter</string>
+</dict>
+</plist>
