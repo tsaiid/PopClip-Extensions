@@ -4,4 +4,4 @@ A PopClip Extension to open image links fomr a given twitter pic url (pic.twitte
 
 ## Icon
 
-![icon](https://raw.githubusercontent.com/tsaiid/PopClip-Extensions/master/TwitterMediaPopup.popclipext/icon.png)
+![icon](https://raw.githubusercontent.com/tsaiid/PopClip-Extensions/master/OpenTwitterMedia.popclipext/icon.png)
