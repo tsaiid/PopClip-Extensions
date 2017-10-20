@@ -16,7 +16,7 @@ Modified from [bitwiser73]()'s Sublime Text 3 plugin - [Markdown Table Formatter
 | Massive | 3 | 5 |
 ```
 
-will be converted to:
+will be formatted to:
 
 ```
 |            | USAT | PCDT |
