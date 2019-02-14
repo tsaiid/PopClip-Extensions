@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>After</key>
+			<string>paste-result</string>
+			<key>Image File</key>
+			<string>timestamp.png</string>
+			<key>Shell Script File</key>
+			<string>timestamp.sh</string>
+			<key>Regular Expression</key>
+			<string>(?s)^$</string>
+			<key>Requirements</key>
+			<array>
+				<string>paste</string>
+			</array>
+			<key>Title</key>
+			<string>Current Date</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Insert current date.</string>
+	<key>Extension Identifier</key>
+	<string>com.tsaiid.popclip.extension.current_date</string>
+	<key>Extension Name</key>
+	<string>Current Date</string>
+</dict>
+</plist>
